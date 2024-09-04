@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoluções Pokémon</title>
+    <link rel="stylesheet" href="./Styles/evoluções.css">
+</head>
+<header>
+    <div class="logo">
+        <h1>PokéWorld</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pokédex.html">Pokédex</a></li>
+            <li><a href="#">Tipos de Pokémons</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="evoluções.html">Evoluções</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header class="page-header">
+        <h1>Evoluções Pokémon</h1>
+        <p>Descubra como seus Pokémon favoritos evoluem e se tornam mais poderosos!</p>
+    </header>
+
+    <!-- Seção 1: Introdução à Evolução -->
+    <section class="intro-section">
+        <h2>O Que é Evolução?</h2>
+        <p>A evolução é uma transformação que ocorre quando um Pokémon atinge certas condições, tornando-se uma forma mais poderosa e, às vezes, com habilidades diferentes.</p>
+    </section>
+
+    <!-- Seção 2: Carrossel Interativo de Evoluções -->
+    <section class="evolution-section">
+        <h2>Selecione um Pokémon</h2>
+    
+        <!-- Dropdown para escolher o Pokémon -->
+        <select id="pokemon-selector" class="pokemon-selector">
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="charmander">Charmander</option>
+            <option value="squirtle">Squirtle</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    
+        <!-- Carrossel de evoluções -->
+        <div class="carousel-container" id="bulbasaur-evolution">
+            <button class="carousel-control prev">⟨</button>
+            <div class="carousel-track">
+                <!-- Evoluções de Bulbasaur -->
+                <div class="carousel-item">
+                    <img src="./poké imagens/a28af00a-2806-4ca4-8143-e69b798bc469.jpeg" alt="Bulbasaur">
+                    <h3>Bulbasaur</h3>
+                    <p>Primeira forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./poké imagens/𝙽𝙰𝙼𝙴 Ivysaur_Herbizarre 𝙵𝚁𝙾𝙼 Pokemon.jpeg" alt="Ivysaur">
+                    <h3>Ivysaur</h3>
+                    <p>Segunda forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./poké imagens/Pokémon_ Venusaur Nicknames.jpeg" alt="Venusaur">
+                    <h3>Venusaur</h3>
+                    <p>Terceira forma evolutiva</p>
+                </div>
+            </div>
+            <button class="carousel-control next">⟩</button>
+        </div>
+    
+        <div class="carousel-container" id="charmander-evolution" style="display: none;">
+            <button class="carousel-control prev">⟨</button>
+            <div class="carousel-track">
+                <!-- Evoluções de Charmander -->
+                <div class="carousel-item">
+                    <img src="./poké imagens/718c21d1-d954-41de-acd2-20d771cd1a66.jpeg" alt="Charmander">
+                    <h3>Charmander</h3>
+                    <p>Primeira forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./poké imagens/Charmeleon Pokédex_ stats, moves, evolution & locations.jpeg" alt="Charmeleon">
+                    <h3>Charmeleon</h3>
+                    <p>Segunda forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/150" alt="Charizard">
+                    <h3>Charizard</h3>
+                    <p>Terceira forma evolutiva</p>
+                </div>
+            </div>
+            <button class="carousel-control next">⟩</button>
+        </div>
+    
+        <div class="carousel-container" id="squirtle-evolution" style="display: none;">
+            <button class="carousel-control prev">⟨</button>
+            <div class="carousel-track">
+                <!-- Evoluções de Squirtle -->
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/150" alt="Squirtle">
+                    <h3>Squirtle</h3>
+                    <p>Primeira forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/150" alt="Wartortle">
+                    <h3>Wartortle</h3>
+                    <p>Segunda forma evolutiva</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/150" alt="Blastoise">
+                    <h3>Blastoise</h3>
+                    <p>Terceira forma evolutiva</p>
+                </div>
+            </div>
+            <button class="carousel-control next">⟩</button>
+        </div>
+    </section>
+    
+    
+
+    <!-- Seção 3: Diagrama de Árvore Evolutiva -->
+    <section class="tree-section">
+        <h2>Árvore Evolutiva - Eevee</h2>
+        <div class="tree-diagram">
+            <!-- Aqui vai o diagrama de evolução -->
+        </div>
+    </section>
+
+    <!-- Seção 4: Galeria de Evoluções Especiais -->
+    <section class="gallery-section">
+        <h2>Evoluções Especiais</h2>
+        <div class="gallery-container">
+            <!-- Aqui vai a galeria de cards -->
+        </div>
+    </section>
+
+    <!-- Seção 5: Comparação Visual -->
+    <section class="comparison-section">
+        <h2>Comparação de Formas</h2>
+        <div class="comparison-container">
+            <!-- Aqui vai a comparação visual -->
+        </div>
+    </section>
+    <script src="./teste.js"></script>
+    <!-- Rodapé -->
+    <footer class="page-footer">
+        <p>&copy; 2024 Pokémon Evolutions. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+

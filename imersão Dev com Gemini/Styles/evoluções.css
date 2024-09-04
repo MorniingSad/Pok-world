@@ -1,0 +1,223 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #080bda;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #ece6e6;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pokemon-selector {
+    display: flex;
+    
+}
+
+/* Cabeçalho da Página */
+.page-header {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.2em;
+}
+
+/* Seção de Introdução */
+.intro-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fa0b03;
+    margin-bottom: 20px;
+}
+
+.intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Seção de Carrossel */
+.carousel-section {
+    padding: 40px 20px;
+    background-color: #7bacbb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #11508b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.carousel-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Seção de Árvore Evolutiva */
+.tree-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tree-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tree-diagram {
+    /* Aqui vão os estilos do diagrama */
+    background-color: transparent;
+}
+
+/* Seção de Galeria */
+.gallery-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    /* Aqui vão os estilos da galeria */
+    background-color: transparent;
+}
+
+/* Seção de Comparação Visual */
+.comparison-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.comparison-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.comparison-container {
+    /* Aqui vão os estilos da comparação */
+    background-color: transparent;
+}
+
+/* Rodapé */
+.page-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.page-footer p {
+    font-size: 0.9em;
+}

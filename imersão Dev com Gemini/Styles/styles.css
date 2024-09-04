@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #333;
+}
+
+header {
+    background-color: #080bda;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #ece6e6;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    ;
+}
+
+.intro .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0c0a0a;
+    color: #e9e9e9;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.highlights {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #e4e010ea;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(9, 115, 129);
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0b08b6;
+}
+.card p {
+    color: #4439c4;
+}
+
+.parallax {
+    background-image: url('https://i.pinimg.com/originals/73/4e/9c/734e9cb5ec664e2b8a6115550bb08d0f.jpg'); /* Adicione a imagem de fundo */
+    height: 500px; /* Defina a altura da seção */
+    background-attachment: fixed; /* Isso cria o efeito parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.parallax .content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para destacar o texto */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

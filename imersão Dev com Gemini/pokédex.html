@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Carrossel Interativo</title>
+    <link rel="stylesheet" href="Styles/pokedex.css">
+ </head>
+ <header>
+    <div class="logo">
+        <h1>PokéWorld</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pokédex.html">Pokédex</a></li>
+            <li><a href="#">Tipos de Pokémons</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="evoluções.html">Evoluções</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section class="parallax"></section>  
+    <section class="pokedex-carousel">
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+        
+        <section class="pokedex-carousel-section">
+            <h2>Pokédex</h2>
+        
+            <!-- Carrossel de Pokémon -->
+            <div class="pokedex-carousel-container">
+                <button class="carousel-control prev">⟨</button>
+                <div class="pokedex-carousel-track">
+                    <!-- Pokémon Cards -->
+                    <div class="pokedex-carousel-item">
+                        <img src="poké imagens/718c21d1-d954-41de-acd2-20d771cd1a66.jpeg" alt="Charmander">
+                        <h3>Charmander</h3>
+                        <p>Tipo: Fogo</p>
+                        <p>Habilidade: </p>
+                    </div>
+                    <div class="pokedex-carousel-item">
+                        <img src="./poké imagens/Charmeleon Pokédex_ stats, moves, evolution & locations.jpeg" alt="Charmeleon">
+                        <h3>Charmeleon</h3>
+                        <p>t</p>
+                    </div>
+                    <div class="pokedex-carousel-item">
+                        <img src="https://via.placeholder.com/150" alt="Pokémon 3">
+                        <h3>Pokémon 3</h3>
+                        <p>Descrição do Pokémon 3</p>
+                    </div>
+                    <!-- Adicione mais itens conforme necessário -->
+                </div>
+                <button class="carousel-control next">⟩</button>
+            </div>
+        </section>
+        
+    </section>
+    
+
+    
+</body>
+<script src="./teste.js"></script>
+</html>
